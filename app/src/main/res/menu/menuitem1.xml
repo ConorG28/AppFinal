@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Not"
+        android:title="Notices"/>
+    <item
+        android:id="@+id/work"
+        android:title="Workouts"/>
+    <item
+        android:id="@+id/PWS"
+        android:title="Post Workout Survey"/>
+    <item
+        android:id="@+id/cpt"
+        android:title="Contact PT"/>
+    <item
+        android:title="Logout"
+        android:id="@+id/logg" />
+
+
+
+
+</menu>

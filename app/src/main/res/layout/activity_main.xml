@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/gymicon"
+
+        />
+
+
+
+
+    <EditText
+        android:id="@+id/editText_Log_email"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:textColorHint="@color/colorPrimary"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:hint="Enter Email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_Log_password"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="20dp"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        />
+    <RadioGroup
+        android:id="@+id/radiogroup_accounttype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/client_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Client"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="70dp"
+            />
+        <RadioButton
+            android:id="@+id/PersonalTrainer_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="-30dp"
+            android:layout_marginLeft="190dp"
+            android:text="Personal Trainer"
+            />
+    </RadioGroup>
+
+
+
+
+
+
+    <Button
+        android:id="@+id/button_Signup"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="LOGIN"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorPrimaryDark"
+        android:onClick="loginUser"
+        />
+
+    <TextView
+        android:id="@+id/textView_Register"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Register here!"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:onClick="goRegister"
+        />
+
+    <TextView
+        android:id="@+id/textView_Forgotpassword"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Forgot Password?"
+        android:textStyle="bold"
+        android:onClick="goForgottenPassword"
+
+
+
+
+        />
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

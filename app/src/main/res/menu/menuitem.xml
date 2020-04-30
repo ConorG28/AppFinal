@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:title="Survey Results"
+        android:id="@+id/sur"
+
+        />
+    <item
+        android:id="@+id/editn"
+        android:title="Add Notices"
+        />
+    <item
+        android:id="@+id/CC"
+        android:title="Contact Client"/>
+    <item
+        android:title="Edit Workouts"
+        android:id="@+id/edw"/>
+
+
+    <item
+        android:title="Logout"
+        android:id="@+id/loout"
+        />
+
+
+
+</menu>

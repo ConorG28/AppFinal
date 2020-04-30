@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context="com.example.appfinal.ContactClientActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/personicon"
+        />
+    <TextView
+        android:id="@+id/pttitle"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Contact Clients"
+        android:textSize="24dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="-60dp"
+        />
+    <TextView
+        android:id="@+id/textview_addclient"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Add a new client..."
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:text="Lauren Cooper                     LC@hotmail.com           07917184122"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:text="David Wilson                               DW@hotmail.com                           07917185287"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"
+        android:text="Jeff higgins                                     JS@hotmail.com                           07522782247"
+        />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:text="Paul Doherty                                    PD@btinternet.com                        09722782247"
+        />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Kyle Gormley                                    gorm@hotmail.com                      07522782247"
+
+
+
+        />
+
+
+
+</LinearLayout>

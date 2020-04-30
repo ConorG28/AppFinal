@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context="com.example.appfinal.RegisterActivity">
+
+<ImageView
+    android:layout_width="200dp"
+    android:layout_height="60dp"
+    android:id="@+id/imageView"
+    android:layout_marginTop="60dp"
+    android:layout_gravity="center_horizontal"
+    android:src="@drawable/personicon"
+    />
+
+    <EditText
+        android:id="@+id/editText_fullname"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textSize="20dp"
+        android:ems="10"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textColorHint="@color/colorPrimary"
+        android:hint="Enter Fullname"
+        android:inputType="textPersonName"
+        />
+
+<EditText
+    android:id="@+id/editText_UserEmail"
+    android:layout_width="200dp"
+    android:layout_height="40dp"
+    android:layout_gravity="center_horizontal"
+    android:textSize="20dp"
+    android:textColor="@color/colorPrimary"
+    android:layout_marginTop="20dp"
+    android:textColorHint="@color/colorPrimary"
+    android:ems="10"
+    android:hint="Enter Email"
+    android:inputType="textPersonName"
+    />
+
+<EditText
+    android:id="@+id/mobilenumber"
+    android:layout_width="200dp"
+    android:layout_height="40dp"
+    android:textColor="@color/colorPrimary"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="20dp"
+    android:textSize="20dp"
+    android:textColorHint="@color/colorPrimary"
+    android:hint="Enter Mobile Number"
+    android:inputType="number"
+
+
+
+    />
+
+<EditText
+    android:id="@+id/editText_Password"
+    android:layout_width="200dp"
+    android:layout_height="40dp"
+    android:layout_gravity="center_horizontal"
+    android:textSize="20dp"
+    android:textColor="@color/colorPrimary"
+    android:hint="Enter Password"
+    android:textColorHint="@color/colorPrimary"
+    android:ems="10"
+    android:inputType="textPassword"
+    android:layout_marginTop="20dp"
+/>
+    <EditText
+        android:id="@+id/editText_rePassword"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:hint="ReEnter Password"
+        android:textColorHint="@color/colorPrimary"
+        android:inputType="textPassword"
+        android:layout_gravity="center_horizontal"
+        />
+<RadioGroup
+    android:id="@+id/radiogroup_Job"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RadioButton
+        android:id="@+id/radio_Client"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Client"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="70dp"
+    />
+    <RadioButton
+        android:id="@+id/radio_PersonalTrainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="190dp"
+        android:text="Personal Trainer"
+        />
+</RadioGroup>
+    <Button
+        android:id="@+id/button_reg"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Register"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:id="@+id/already_user"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Login"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:onClick="goLogin"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "339318219733",
+    "firebase_url": "https://mobile-technology-39aed.firebaseio.com",
+    "project_id": "mobile-technology-39aed",
+    "storage_bucket": "mobile-technology-39aed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339318219733:android:91c6d1c11942d2f57e135c",
+        "android_client_info": {
+          "package_name": "com.example.mobiletechnology"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339318219733-h82hdkku844dgar99s0ls80ocsa6uqt5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mobiletechnology",
+            "certificate_hash": "3ea92775d2ba747fd7d0eff2520716ab16c84232"
+          }
+        },
+        {
+          "client_id": "339318219733-nrinlv1iav3uijna56u1b0bc7f8lkm9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs6ntFkBZjbAF5NHNdKcCxLKlrTW48-RM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339318219733-nrinlv1iav3uijna56u1b0bc7f8lkm9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

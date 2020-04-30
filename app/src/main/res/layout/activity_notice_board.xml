@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.appfinal.NoticeBoardActivity">
+
+    <TextView
+        android:id="@+id/textView_clientnoticeboard"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="Client NoticeBoard"
+        android:textSize="24dp"
+
+        />
+    
+    <TextView
+        android:id="@+id/textView_pro_title"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        />
+
+    <ImageView
+        android:id="@+id/Notice"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:src="@drawable/commentimage"
+        android:onClick="goNotice"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Notices"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="90dp"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:id="@+id/workouts"
+        android:layout_marginTop="-130dp"
+        android:layout_gravity="right"
+        android:onClick="goWorkout"
+        android:src="@drawable/daily_workouts"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Workouts"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="250dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/postsurvey"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/post_survey"
+        android:onClick="goSurvey"
+        android:layout_gravity="left"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Post Workout Survey"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+
+        />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="-130dp"
+        android:src="@drawable/personicon"
+        android:id="@+id/contactPT"
+        android:onClick="goContactPT"
+
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Contact PT"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="250dp"
+
+
+        />
+
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="LOGOUT"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="logOut"
+
+        />
+    
+    
+    
+    
+    
+    
+    
+
+</LinearLayout>

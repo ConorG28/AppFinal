@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context="com.example.appfinal.SurveyResultsActivity">
+
+
+
+    <TextView
+        android:id="@+id/restitle"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textSize="24dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Client Survey Results"
+        android:textColor="@color/colorPrimary"
+        />
+    <Button
+        android:id="@+id/showresults"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="RESULTS"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="Client Name and Date"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/colorPrimary"
+        />
+
+    <TextView
+        android:id="@+id/Q1"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="How is your overall mood?"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/R1"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:text="...."
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/Q2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="How was the overall session?"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/R2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="..."
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+    <TextView
+        android:id="@+id/Q3"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="How Difficult was the session?"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        />
+    <TextView
+        android:id="@+id/R3"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="..."
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        />
+
+
+    <TextView
+        android:id="@+id/Q5"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center_horizontal"
+        android:text="How enjoyable was the session?"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/R4"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="...."
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+
+
+        />
+
+
+
+</LinearLayout>
